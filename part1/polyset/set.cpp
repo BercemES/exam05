@@ -16,7 +16,7 @@ void set::insert (int value)
 void set::insert (int *arr, int size)
 {
 	for (int i = 0; i < size; i++)
-		sBag.insert(arr[i]);
+		this->insert(arr[i]);
 }
 void set::print() const
 {
